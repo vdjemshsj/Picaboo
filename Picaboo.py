@@ -33,7 +33,7 @@ def start(update: Update, context: CallbackContext):
     update.message.reply_text(
 		"This is the video Showing how to use me.. 👇")
     time.sleep(1)
-    update.message.reply_document('')
+    #update.message.reply_document('')
     time.sleep(5)
     update.message.reply_text(
 		"I can help you with,\n\n✿ Textbooks\n✿ Notes\n✿ Assignments\n✿ Lab Manual\n✿ Previous Year Question Papers\n    ..... and many more..!!")
