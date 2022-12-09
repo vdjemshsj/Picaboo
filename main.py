@@ -29,12 +29,14 @@ def start(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text(
 		"Hi there, I am Picaboo..!! 👻")
-    #time.sleep(1)
-    #update.message.reply_text(
-		#"This is the video Showing how to use me.. 👇")
-    #time.sleep(1)
-    #update.message.reply_document('')
-    #time.sleep(5)
+    time.sleep(1)
+    update.message.reply_text(
+		"This is the video Showing how to use me.. 👇")
+    time.sleep(1)
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/51')
+    update.message.reply_text(
+		"You don't have to type anything, just click on the blue text, to run the Bot.")
+    time.sleep(5)
     update.message.reply_text(
 		"I can help you with,\n\n✿ Textbooks\n✿ Notes\n✿ Assignments\n✿ Lab Manual\n✿ Previous Year Question Papers\n    ..... and many more..!!")
     time.sleep(1)
@@ -386,7 +388,7 @@ def syllabus(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Wait a second... 🤏\nI am sending Syllabus... 📤")
     time.sleep(0.5)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/3')
 
 def whatsapp_me(update: Update, context: CallbackContext):
     time.sleep(1)
