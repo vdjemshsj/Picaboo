@@ -29,12 +29,12 @@ def start(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text(
 		"Hi there, I am Picaboo..!! 👻")
-    time.sleep(1)
-    update.message.reply_text(
-		"This is the video Showing how to use me.. 👇")
-    time.sleep(1)
+    #time.sleep(1)
+    #update.message.reply_text(
+		#"This is the video Showing how to use me.. 👇")
+    #time.sleep(1)
     #update.message.reply_document('')
-    time.sleep(5)
+    #time.sleep(5)
     update.message.reply_text(
 		"I can help you with,\n\n✿ Textbooks\n✿ Notes\n✿ Assignments\n✿ Lab Manual\n✿ Previous Year Question Papers\n    ..... and many more..!!")
     time.sleep(1)
@@ -93,7 +93,7 @@ def physics_textbook(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Wait a second... 🤏\nI am sending Physics Textbook... 📤")
     time.sleep(0.5)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/14')
 
 def physics_notes(update: Update, context: CallbackContext):
     time.sleep(1)
@@ -101,7 +101,7 @@ def physics_notes(update: Update, context: CallbackContext):
 
 def physics_notes_unit_1(update: Update, context: CallbackContext):
     time.sleep(1)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/15')
 def physics_notes_unit_2(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Pehle Unit 2 padhane to do. 😅")
@@ -120,7 +120,8 @@ def physics_notes_unit_6(update: Update, context: CallbackContext):
 
 def physics_pyq(update: Update, context: CallbackContext):
     time.sleep(1)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/35')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/36')
 
 # Chemistry ------------------------------------------------------------------------------------------------------------
 
@@ -128,7 +129,7 @@ def chemistry_textbook(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Wait a second... 🤏\nI am sending Chemistry Textbook... 📤")
     time.sleep(0.5)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/23')
 
 def chemistry_notes(update: Update, context: CallbackContext):
     time.sleep(1)
@@ -136,7 +137,7 @@ def chemistry_notes(update: Update, context: CallbackContext):
 
 def chemistry_notes_unit_1(update: Update, context: CallbackContext):
     time.sleep(1)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/24')
 def chemistry_notes_unit_2(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Pehle Unit 2 padhane to do. 😅")
@@ -155,7 +156,9 @@ def chemistry_notes_unit_6(update: Update, context: CallbackContext):
 
 def chemistry_pyq(update: Update, context: CallbackContext):
     time.sleep(1)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/42')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/43')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/44')
 
 # BEE ------------------------------------------------------------------------------------------------------------
 
@@ -163,7 +166,7 @@ def bee_textbook(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Wait a second... 🤏\nI am sending BEE Textbook... 📤")
     time.sleep(0.5)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/27')
 
 def bee_notes(update: Update, context: CallbackContext):
     time.sleep(1)
@@ -171,7 +174,7 @@ def bee_notes(update: Update, context: CallbackContext):
 
 def bee_notes_unit_1(update: Update, context: CallbackContext):
     time.sleep(1)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/28')
 def bee_notes_unit_2(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Pehle Unit 2 padhane to do. 😅")
@@ -190,7 +193,9 @@ def bee_notes_unit_6(update: Update, context: CallbackContext):
 
 def bee_pyq(update: Update, context: CallbackContext):
     time.sleep(1)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/48')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/49')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/50')
 
 # BXE ------------------------------------------------------------------------------------------------------------
 
@@ -198,7 +203,7 @@ def bxe_textbook(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Wait a second... 🤏\nI am sending BXE Textbook... 📤")
     time.sleep(0.5)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/25')
 
 def bxe_notes(update: Update, context: CallbackContext):
     time.sleep(1)
@@ -206,7 +211,7 @@ def bxe_notes(update: Update, context: CallbackContext):
 
 def bxe_notes_unit_1(update: Update, context: CallbackContext):
     time.sleep(1)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/26')
 def bxe_notes_unit_2(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Pehle Unit 2 padhane to do. 😅")
@@ -225,15 +230,17 @@ def bxe_notes_unit_6(update: Update, context: CallbackContext):
 
 def bxe_pyq(update: Update, context: CallbackContext):
     time.sleep(1)
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/45')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/46')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/47')
     update.message.reply_document('')
-
 # PPS ------------------------------------------------------------------------------------------------------------
 
 def pps_textbook(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Wait a second... 🤏\nI am sending PPS Textbook... 📤")
     time.sleep(0.5)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/7')
 
 def pps_notes(update: Update, context: CallbackContext):
     time.sleep(1)
@@ -241,7 +248,7 @@ def pps_notes(update: Update, context: CallbackContext):
 
 def pps_notes_unit_1(update: Update, context: CallbackContext):
     time.sleep(1)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/13')
 def pps_notes_unit_2(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Pehle Unit 2 padhane to do. 😅")
@@ -260,7 +267,9 @@ def pps_notes_unit_6(update: Update, context: CallbackContext):
 
 def pps_pyq(update: Update, context: CallbackContext):
     time.sleep(1)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/32')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/33')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/34')
 
 # Mechanics ------------------------------------------------------------------------------------------------------------
 
@@ -268,7 +277,7 @@ def mechanics_textbook(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Wait a second... 🤏\nI am sending Mechanics Textbook... 📤")
     time.sleep(0.5)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/16')
 
 def mechanics_notes(update: Update, context: CallbackContext):
     time.sleep(1)
@@ -276,13 +285,11 @@ def mechanics_notes(update: Update, context: CallbackContext):
 
 def mechanics_notes_unit_1(update: Update, context: CallbackContext):
     time.sleep(1)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/15')
 def mechanics_notes_unit_2(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Pehle Unit 2 padhane to do. 😅")
-def mechanics_notes_unit_3(update: Update, context: CallbackContext):
-    time.sleep(1)
-    update.message.reply_text("Pehle Unit 3 padhane to do. 😅")
+def mechanics_notes_unit_3(update: Update, context: CallbackContext):update.message.reply_document('')
 def mechanics_notes_unit_4(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Pehle Unit 4 padhane to do. 😅")
@@ -295,15 +302,15 @@ def mechanics_notes_unit_6(update: Update, context: CallbackContext):
 
 def mechanics_pyq(update: Update, context: CallbackContext):
     time.sleep(1)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/37')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/38')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/39')
 
 # Maths-I ------------------------------------------------------------------------------------------------------------
 
 def mathsI_textbook(update: Update, context: CallbackContext):
     time.sleep(1)
-    update.message.reply_text("Wait a second... 🤏\nI am sending Maths-I Textbook... 📤")
-    time.sleep(0.5)
-    update.message.reply_document('')
+    update.message.reply_text("We are trying to arrange more SE materials. It will be uploaded on the bot as soon as we get it. Please don't spam in the bot. Share any SE material you have by clicking /I_have_a_Suggestion")
 
 def mathsI_notes(update: Update, context: CallbackContext):
     time.sleep(1)
@@ -311,7 +318,7 @@ def mathsI_notes(update: Update, context: CallbackContext):
 
 def mathsI_notes_unit_1(update: Update, context: CallbackContext):
     time.sleep(1)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/22')
 def mathsI_notes_unit_2(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Pehle Unit 2 padhane to do. 😅")
@@ -330,7 +337,8 @@ def mathsI_notes_unit_6(update: Update, context: CallbackContext):
 
 def mathsI_pyq(update: Update, context: CallbackContext):
     time.sleep(1)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/40')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/41')
 
 # SME ------------------------------------------------------------------------------------------------------------
 
@@ -338,7 +346,7 @@ def sme_textbook(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Wait a second... 🤏\nI am sending SME Textbook... 📤")
     time.sleep(0.5)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/4')
 
 def sme_notes(update: Update, context: CallbackContext):
     time.sleep(1)
@@ -346,7 +354,7 @@ def sme_notes(update: Update, context: CallbackContext):
 
 def sme_notes_unit_1(update: Update, context: CallbackContext):
     time.sleep(1)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/6')
 def sme_notes_unit_2(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Pehle Unit 2 padhane to do. 😅")
@@ -365,7 +373,8 @@ def sme_notes_unit_6(update: Update, context: CallbackContext):
 
 def sme_pyq(update: Update, context: CallbackContext):
     time.sleep(1)
-    update.message.reply_document('')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/30')
+    update.message.reply_document('https://t.me/DPU_DIT_Bot/31')
 
 # More ------------------------------------------------------------------------------------------------------------
 
