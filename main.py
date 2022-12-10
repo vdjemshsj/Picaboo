@@ -235,7 +235,7 @@ def bxe_pyq(update: Update, context: CallbackContext):
     update.message.reply_document('https://t.me/DPU_DIT_Bot/45')
     update.message.reply_document('https://t.me/DPU_DIT_Bot/46')
     update.message.reply_document('https://t.me/DPU_DIT_Bot/47')
-    update.message.reply_document('')
+
 # PPS ------------------------------------------------------------------------------------------------------------
 
 def pps_textbook(update: Update, context: CallbackContext):
@@ -291,7 +291,9 @@ def mechanics_notes_unit_1(update: Update, context: CallbackContext):
 def mechanics_notes_unit_2(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Pehle Unit 2 padhane to do. 😅")
-def mechanics_notes_unit_3(update: Update, context: CallbackContext):update.message.reply_document('')
+def mechanics_notes_unit_3(update: Update, context: CallbackContext):
+    time.sleep(1)
+    update.message.reply_text("Pehle Unit 3 padhane to do. 😅")
 def mechanics_notes_unit_4(update: Update, context: CallbackContext):
     time.sleep(1)
     update.message.reply_text("Pehle Unit 4 padhane to do. 😅")
