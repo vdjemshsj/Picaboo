@@ -17,10 +17,10 @@ from telegram.ext.messagehandler import MessageHandler
 from telegram.ext.filters import Filters
 import time
 
-with open('Token.txt', 'r') as Token:
-    TOKEN = Token.read()
+#with open('Token.txt', 'r') as Token:
+    #TOKEN = Token.read()
 
-updater = Updater(TOKEN,
+updater = Updater('5930092476:AAE75Jb9_oNiy6onVxMvHiVwEKCFlYY3oNM',
         use_context=True)
 
 # Start ------------------------------------------------------------------------------------------------------------
